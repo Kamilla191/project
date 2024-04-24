@@ -1,0 +1,45 @@
+.emailForm {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.emailForm input[type="text"],
+.emailForm input[type="email"],
+.emailForm textarea,
+.emailForm select { /* Added select */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.emailForm textarea {
+  resize: vertical;
+}
+
+.emailForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(180,60%,50%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.emailForm button:hover {
+  background-color: #0056b3;
+}
+
+.emailForm button:active {
+  background-color: #004080;
+}

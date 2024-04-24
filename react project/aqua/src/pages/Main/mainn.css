@@ -1,0 +1,31 @@
+.div_container_front{
+    width: 100%;
+    height: 800px;
+    background-blend-mode: multiply;
+    background-color: hsl(45,60%,50%);
+    background-size: 2000px 1000px;
+    text-align: center;
+    color: white;
+    
+}
+.container_front_text{
+    padding-top: 25%;
+}
+.container_slider h1{
+   padding-left:  2%;
+   padding-top: 2%;
+}
+.container_slider p{
+    padding-left:  2%;
+    padding-bottom: 2%;
+}
+
+.footet_container{
+    text-align: center;
+    background-color: hsl(180,60%,50%);
+}
+
+.mySlides {
+    display:flex;
+  }
+  

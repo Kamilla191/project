@@ -1,0 +1,27 @@
+.div_head_container{
+    background-color: hsl(180,60%,50%);
+}
+.div_container_menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.div_log_container{
+    /*border: solid 1px black;*/
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 10px 10px 10px 10px;
+}
+
+.div_item_menu {
+    /*border: solid 1px black;*/
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 10px 10px 10px 10px;
+    
+}
+.div_item_menu a {
+    text-decoration: none;
+    color: black;
+}
